@@ -1,1 +1,6 @@
 bot_ai.py
+regex_patterns_old.json
+customer.csv
+test.*
+user_credentials.json
+.gitignore

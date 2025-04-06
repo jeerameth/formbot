@@ -173,8 +173,8 @@ def find_matching_keys_with_regex(entry_id_dict, csv_header, regex_patterns_file
 
 def main():
     csv_filepath = "team.csv"
-    form_url = "FORM_PLACEHOLDER"
-    regex_patterns_file = "regex_patterns2.json"
+    form_url = "FORM_PLACEHOLDER" # Add your form URL here
+    regex_patterns_file = "regex_patterns.json"
 
     print("\nAttempting to automatically extract form entry IDs...")
     global entry_ids
