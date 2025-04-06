@@ -1,7 +1,5 @@
-bot_ai.py
-regex_patterns_old.json
-customer.csv
-test*
-user_credentials.json
-.gitignore
-.env
+*
+!.gitignore
+!bot.py
+!team.csv
+!regex_patterns.json
