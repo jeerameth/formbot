@@ -1,0 +1,50 @@
+{
+    "firstname": [
+        { "pattern": "ชื่อ", "score": 3, "match_type": "contains" },
+        { "pattern": "ชื่อจริง", "score": 3, "match_type": "contains" },
+        { "pattern": "name", "score": 3, "match_type": "contains" },
+        { "pattern": "first", "score": 2, "match_type": "contains" },
+        { "pattern": "given", "score": 2, "match_type": "contains" }
+    ],
+    "lastname": [
+        { "pattern": "นามสกุล", "score": 3, "match_type": "contains" },
+        { "pattern": "สกุล", "score": 3, "match_type": "contains" },
+        { "pattern": "last", "score": 2, "match_type": "contains" },
+        { "pattern": "family", "score": 2, "match_type": "contains" },
+        { "pattern": "surname", "score": 2, "match_type": "contains" }
+    ],
+    "email": [
+        { "pattern": "email", "score": 3, "match_type": "contains" },
+        { "pattern": "อีเมล", "score": 3, "match_type": "contains" }
+    ],
+    "phone": [
+        { "pattern": "phone", "score": 3, "match_type": "contains" },
+        { "pattern": "โทร", "score": 3, "match_type": "contains" },
+        { "pattern": "เบอร์", "score": 3, "match_type": "contains" },
+        { "pattern": "mobile", "score": 2, "match_type": "contains" }
+    ],
+    "date of birth": [
+        { "pattern": "date of birth", "score": 3, "match_type": "contains" },
+        { "pattern": "ิbirth", "score": 3, "match_type": "contains" },
+        { "pattern": "วันเกิด", "score": 3, "match_type": "contains" },
+        { "pattern": "ปีเกิด", "score": 3, "match_type": "contains" },
+        { "pattern": "birthday", "score": 2, "match_type": "contains" }
+    ],
+    "id": [
+        { "pattern": "id", "score": 3, "match_type": "exact" },
+        { "pattern": "passport", "score": 3, "match_type": "contains" },
+        { "pattern": "ประชาชน", "score": 3, "match_type": "contains" },
+        { "pattern": "บัตร", "score": 3, "match_type": "contains" }
+    ],
+    "account": [
+        { "pattern": "account", "score": 3, "match_type": "contains" },
+        { "pattern": "บัญชี", "score": 3, "match_type": "contains" }
+    ],
+    "link": [
+        { "pattern": "link", "score": 3, "match_type": "contains" },
+        { "pattern": "url", "score": 3, "match_type": "contains" },
+        { "pattern": "post", "score": 3, "match_type": "contains" },
+        { "pattern": "ลิ้ง", "score": 3, "match_type": "contains" },
+        { "pattern": "ลิง", "score": 3, "match_type": "contains" }
+    ]
+}
